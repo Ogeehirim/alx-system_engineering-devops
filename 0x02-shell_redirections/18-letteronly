@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -1 "*(a-z)" /etc/passwd -config
+cat /etc/ssh/sshd_config | grep ^[[:alpha:]]
